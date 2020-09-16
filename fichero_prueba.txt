@@ -1,0 +1,22 @@
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT
+$ git status -s
+fatal: not a git repository (or any of the parent directories): .git
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT
+$ git init
+Initialized empty Git repository in D:/Learning/GIT/.git/
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git status -s
+?? FCMeteredLDProcess.scala
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git add FCMeteredLDProcess.scala
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git status -s
+A  FCMeteredLDProcess.scala
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$
