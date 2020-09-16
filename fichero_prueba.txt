@@ -109,3 +109,37 @@ e8e41cf (HEAD -> master) Clase 1: 16-09-2020 18:38
 
 agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
 $
+
+Clase 2
+
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git status -s
+ M fichero_prueba.txt
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git add .
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git status -s
+M  fichero_prueba.txt
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git log --oneline
+e8e41cf (HEAD -> master) Clase 1: 16-09-2020 18:38
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git commit -am "Clase 2: 16-09-2020 18:57"
+[master 36784e1] Clase 2: 16-09-2020 18:57
+ 1 file changed, 89 insertions(+)
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git log --oneline
+36784e1 (HEAD -> master) Clase 2: 16-09-2020 18:57
+e8e41cf Clase 1: 16-09-2020 18:38
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git status -s
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$
