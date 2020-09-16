@@ -1,4 +1,7 @@
+Recomenada la web para comandos: 
+https://git-scm.com/docs/git#_git_commands
 
+A partir de aqui comandos copiados:
 agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT
 $ git status -s
 fatal: not a git repository (or any of the parent directories): .git
@@ -17,6 +20,92 @@ $ git add FCMeteredLDProcess.scala
 agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
 $ git status -s
 A  FCMeteredLDProcess.scala
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$
+
+
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git status -s
+AD FCMeteredLDProcess.scala
+?? fichero_prueba.txt
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git add fichero_prueba.txt
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   FCMeteredLDProcess.scala
+        new file:   fichero_prueba.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    FCMeteredLDProcess.scala
+
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git status -s
+AD FCMeteredLDProcess.scala
+A  fichero_prueba.txt
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git commit -m "Clase 1: 16-09-2020 18:38"
+[master (root-commit) e8e41cf] Clase 1: 16-09-2020 18:38
+ 2 files changed, 637 insertions(+)
+ create mode 100644 FCMeteredLDProcess.scala
+ create mode 100644 fichero_prueba.txt
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git status -s
+ D FCMeteredLDProcess.scala
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git status -s
+ D FCMeteredLDProcess.scala
+ M fichero_prueba.txt
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git commit -m "Prueba de modificación"
+On branch master
+Changes not staged for commit:
+        deleted:    FCMeteredLDProcess.scala
+        modified:   fichero_prueba.txt
+
+no changes added to commit
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git add fichero_prueba.txt
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git status -s
+ D FCMeteredLDProcess.scala
+M  fichero_prueba.txt
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git commit -m "Prueba de modificación"
+[master eb33761] Prueba de modificación
+ 1 file changed, 2 insertions(+)
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git log --oneline
+eb33761 (HEAD -> master) Prueba de modificación
+e8e41cf Clase 1: 16-09-2020 18:38
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git reset --hard e8e41cf
+HEAD is now at e8e41cf Clase 1: 16-09-2020 18:38
+
+agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
+$ git log --oneline
+e8e41cf (HEAD -> master) Clase 1: 16-09-2020 18:38
 
 agamazo@AGAMAZO10A MINGW64 /d/Learning/GIT (master)
 $
